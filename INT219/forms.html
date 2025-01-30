@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="uname">Enter Name: </label>
+        <input type="text" name="name" id="name" size="30" maxlength="5" placeholder="enter your name">
+
+        <br><br>
+
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" placeholder="enter your password">
+
+        <br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+
+        <br><br>
+
+
+
+        <label for="review">Write a movie review: </label><br>
+        <textarea name="revie" id="review" rows="10" cols="40"></textarea>
+
+        <label for="lang">Choose the language you know: </label>
+        <input type="checkbox" name="lang" id="lang" value="English" >English
+        <input type="checkbox" name="lang" id="lang" value="hindi" >Hindi
+        <input type="checkbox" name="lang" id="lang" value="Spanish">Spanish
+        <input type="checkbox" name="lang" id="lang" value="French">French
+
+        <br>
+        <br>
+        <!-- 
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender1" id="gender" >
+        <label for="gender1">Male</label>
+        <input type="radio" name="gender2" id="gender" >Female -->
+
+        <input type="radio" name="qualification" id="btech" value="btech">
+        <label for="btech">B.Tech</label>
+
+        <input type="radio" name="qualification" id="mtech" value="mtech">
+        <label for="mtech">M.Tech</label>
+
+        <input type="radio" name="degree" id="phd" value="phd">
+        <label for="phd">Ph.D</label>
+
+        <input type="radio" name="degree" id="post" value="post">
+        <label for="post">Post Grad</label>
+
+        <br><br>
+
+        <label for="statesel">Choose your state: </label>
+        <select name="statesel" id="statesel" multiple>
+            <option value="none">Choose State</option>
+            <option value="punj" selected>Punjab</option>
+            <option value="hp">Himachal Pradesh</option>
+            <option value="hr">Haryana</option>
+            <option value="kr">Kerala</option>
+        </select>
+
+        <br>
+        <br>
+
+
+        <label for="selfile">Choose file: </label>
+        <input type="file" name="selfile" id="selfile">
+
+        <br><br>
+
+        <!-- <button type="reset" value="resetform">Reset</button> -->
+         <input type="reset" name="resetform" id="resetform" value="Reset">
+
+        <br><br>
+
+        <input type="submit" name="submit" id="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>

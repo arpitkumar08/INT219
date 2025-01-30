@@ -1,0 +1,44 @@
+h1{
+    background-color: navy;
+}
+
+h3{
+    color: blueviolet;
+    background-color: aqua;
+
+}
+
+h6{
+    background-color: navajowhite;
+}
+
+#p1{
+    color: green;
+    background-color: skyblue;
+}
+
+a[href="HTML_Practice.html"]{
+    background-color: yellow;
+    color: maroon;
+}
+
+#p2{
+    color: blueviolet;
+}
+
+.c1{
+    color: maroon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: grey;
+}
+
+
+    
+
+a:hover{
+    color: aqua;
+}
+
+div p{
+    background-color: red;
+}
